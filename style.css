@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap');
+body{
+    margin: 0;
+    font-family: 'Noto Sans Linear B', sans-serif;
+}
+header{
+    background-color: white;
+    border-bottom: grey solid 0.2px;
+}
+main{
+    width: 85%;
+    margin-inline: auto;
+    display: flex;
+}
+h3{
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+h6{
+    margin: 0;
+}
+.grassetto{
+    font-weight: bold;
+}
+.grigio{
+    color: gray;
+}
+.size{
+    font-size: 0.8em;
+}
+.topbar{
+    display: flex;
+    width: 85%;
+    align-items: center;
+    justify-content: space-between;
+    margin-inline: auto; 
+}
+.topbar  img{
+    width: 75%;
+    padding-block: 5px;
+}
+#logo{
+    width: 20%;   
+   }
+.nav{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+#icona{
+   width: 10%; 
+   color:orangered;
+   font-size: 1.5em;
+}
+ button{
+    width: 100%;
+    padding: 5px;
+    padding-inline: 10px;
+    border-radius: 20px;
+    border-width: 0.8px;
+    background-color: white;
+}
+.nav ion-icon{
+    font-size: 1.8em;
+}
+.News{
+    width: 66%;
+    border-right: 0.2px solid #d3d3d3;
+}
+.Container{
+    width: 92%;
+}
+.slide-bar{
+    width: 100%;
+    border-bottom: solid lightgray 1px;
+    margin-bottom: 9.8%;
+}
+.slide-bar p{
+    text-decoration-line: underline;
+    line-height: 1;
+    font-size: 0.75em;
+}
+.News-Letter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 7%;
+}
+.PIPPO{
+    width: 71%;
+}
+.Info-news{
+    width: 100%;
+}
+
+.img-news{
+    width: 29%;
+    max-height: 70%;
+}
+.img-news img{
+    width: 100%;
+    height: 70%;
+}
+.footer-news{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 3px;
+}
+.lista{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+}
+.lista li:first-child{
+    list-style-type: none;
+    margin-left: 0;
+}
+.lista li{
+    font-size: 0.65em;
+    margin-inline:  10px;
+}
+
+.lista button{
+    font-size: 0.8em;
+    background-color: #e1dfdf;
+    border-style: none;
+}
+.icon-footer{
+    display: flex;
+    gap: 10px;
+    margin-right: 20px;
+}
+/* SEZIONE SINISTRA END */
+/* SEZIONE DESTRA BGN */
+.social{
+    width: 34%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container2{
+    width: 90%;
+    margin-left: 5%;
+}
+.social-sticky{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: solid lightgrey 1px;
+}
+.social-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-icons img{
+    width: 12%;
+}
+.Twitter{
+    color: #1DA1F2;
+    font-size: 1.2em;
+}
+#bottoneT
+{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    width: 100%;
+}
+#bottoneT img{
+    width: 20%;
+}
+.social-sticky button{
+    width: 50%;
+    border: gray solid 1px;
+}
+.bottoni{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.bottoni button{
+    background-color: #F2F2F2;
+    border: none;
+    padding-inline: 0;
+}
+.facebook{
+    display: flex;
+}
+/* */
+
