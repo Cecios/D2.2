@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+
     <header>
         <div class="topbar">
             <div id="logo">
@@ -16,24 +17,27 @@
                 <ion-icon class="grigio" name="search-outline"></ion-icon>
                 <ion-icon class="grigio" name="bookmarks-outline"></ion-icon>
                 <ion-icon class="grigio" name="notifications-outline"></ion-icon>
-                <button> Resume membership </button>
-                <div id="icona">
-                    <!-- <ion-icon name="ellipse">T</ion-icon> -->
-                </div>
+                <button class="bianco pad2"> Resume membership </button>
+                <button id="Posta">T</button>
+
             </div>
         </div>
     </header>
     <main>
         <div class="News">
             <div class="Container">
-                <div class="slide-bar">
-                    <p>FOLLOWING <span class="grassetto">RECOMMENDED FOR YOU</span> </p>
+                <div class="slide-bar wid100">
+                    <div>FOLLOWING &nbsp;&nbsp;&nbsp;</div>
+                    <div id="bold"><b>RECOMMENDED FOR YOU</b></div>
                 </div>
 <!-- ---------------------------** 1 **---------------------- -->         
                     <div class="News-Letter">
                         <div class="PIPPO">   
                             <div class="Info-news"> 
-                                <h6>Kolby Sisk <span class="grigio">in</span> Udacity Eng & Data</h6>  
+                                <div class="Titolo">
+                                    <img src="./assets/logo1.png" alt="">
+                                    <h6>Kolby Sisk <span class="grigio">in</span> Udacity Eng & Data</h6>
+                                </div>  
                                 <h3>React state management in 2022&mdash;Return of the Redux</h3>
                                 <p class="grigio size">At the beginning of the year if you told me I'd be 
                                     publishing a <br/> recommendation to use Redux I would have laughed in your face. 
@@ -41,7 +45,7 @@
                                 </p>                   
                             </div>
                             <div class="footer-news">
-                                <ul class="lista grigio">
+                                <ul class="lista grigio piccolo">
                                     <li>Dec&nbsp;3</li>
                                     <li>4 min read</li>
                                     <li><button class="grigio">React</button></li>
@@ -61,14 +65,17 @@
 <!-- ---------------------------** 2 **---------------------- -->
                     <div class="News-Letter">
                         <div class="PIPPO">   
-                            <div class="Info-news"> 
-                                <h6>Navoda Nilakshi</h6>  
-                                <h3>How To Sanitize Your Express App Against MongoDB Injection & Cross-Site Scripting.</h3>
-                                <p class="grigio size">Easiest way to sanitize your express app.
-                                </p>                   
+                            <div class="Info-news">
+                               <div class="Titolo">  
+                                    <img style="border-radius: 50%;" src="./assets/logo2.png" alt="logo2">
+                                    <h6>Navoda Nilakshi</h6>
+                                </div>  
+                                    <h3>How To Sanitize Your Express App Against MongoDB Injection & Cross-Site Scripting.</h3>
+                                    <p class="grigio size">Easiest way to sanitize your express app.
+                                    </p>            
                             </div>
                             <div class="footer-news">
-                                <ul class="lista grigio">
+                                <ul class="lista grigio piccolo">
                                     <li>Dec&nbsp;19</li>
                                     <li>6 min read</li>
                                     <li><button class="grigio">Web Development</button></li>
@@ -88,13 +95,16 @@
                     <div class="News-Letter">
                         <div class="PIPPO">   
                             <div class="Info-news"> 
-                                <h6>Divyesh Bhalani<span class="grigio"> in </span>DhiWise</h6>    
-                                <h3>React 18 new features and updates</h3>
-                                <p class="grigio size">Know about some cool features and updates of React 18.
-                                </p>                   
+                                <div class="Titolo">
+                                    <img src="./assets/logo3.png" alt="logo3">
+                                    <h6>Divyesh Bhalani<span class="grigio"> in </span>DhiWise</h6> 
+                                </div>
+                                    <h3>React 18 new features and updates</h3>
+                                    <p class="grigio size">Know about some cool features and updates of React 18.
+                                    </p>                   
                             </div>
                             <div class="footer-news">
-                                <ul class="lista grigio">
+                                <ul class="lista grigio piccolo">
                                     <li>Nov&nbsp;24</li>
                                     <li>4 min read</li>
                                     <li><button class="grigio">Reactjs</button></li>
@@ -114,13 +124,16 @@
                     <div class="News-Letter">
                         <div class="PIPPO">   
                             <div class="Info-news"> 
-                                <h6>Vsevolod Ulyanovich<span class="grigio"> in </span>Fively Blog</h6>  
+                                <div class="Titolo">
+                                    <img src="./assets/logo4.png" alt="">
+                                    <h6>Vsevolod Ulyanovich<span class="grigio"> in </span>Fively Blog</h6>  
+                                </div>
                                 <h3>15 Best Web App Ideas for a Startup in 2021</h3>
                                 <p class="grigio size">15 Startup Ideas and Technologies That Could Make You a Milionaire
                                 </p>                   
                             </div>
                             <div class="footer-news">
-                                <ul class="lista grigio">
+                                <ul class="lista grigio piccolo">
                                     <li>Oct&nbsp;29</li>
                                     <li>6 min read</li>
                                     <li><button class="grigio">Web Development</button></li>
@@ -133,21 +146,24 @@
                             </div>
                         </div>
                         <div class="img-news">
-                            <img src="./assets/foto4.png" alt="MongoDB">
+                            <img src="./assets/foto4.png" alt="foto4">
                         </div>
                     </div>
 <!-- ---------------------------** 5 ** ----------->
                     <div class="News-Letter">
                         <div class="PIPPO">   
                             <div class="Info-news"> 
-                                <h6>Kolby Sisk <span class="grigio"> in </span> Udacity Eng & Data</h6>  
+                                <div class="Titolo">
+                                    <img src="./assets/logo1.png" alt="">
+                                    <h6>Kolby Sisk <span class="grigio"> in </span> Udacity Eng & Data</h6>  
+                                </div>
                                 <h3>Understanding re-rendering and memoization in React</h3>
                                 <p class="grigio size">The following are quick tips to increase performance in your
                                     React <br/> aplication by understanding re-rendering and memozaition. To better...
                                 </p>                   
                             </div>
                             <div class="footer-news">
-                                <ul class="lista grigio">
+                                <ul class="lista grigio piccolo">
                                     <li>Dec&nbsp;6</li>
                                     <li>4 min read</li>
                                     <li><button class="grigio">React</button></li>
@@ -160,20 +176,23 @@
                             </div>
                         </div>
                         <div class="img-news">
-                            <img src="./assets/foto5.png" alt="MongoDB">
+                            <img src="./assets/foto5.png" alt="foto5">
                         </div>
                     </div>
 <!-- ---------------------------** 6 ** ----------->
                     <div class="News-Letter">
                         <div class="PIPPO">   
                             <div class="Info-news"> 
-                                <h6>Arun Kashyap<span class="grigio"> in </span>Nerd For Tech</h6>  
+                                <div class="Titolo">
+                                    <img src="./assets/logo5.png" alt="logo5">
+                                    <h6>Arun Kashyap<span class="grigio"> in </span>Nerd For Tech</h6>  
+                                </div>
                                 <h3>Why Get Rid Of PromisesTo Fetch Data in React?</h3>
                                 <p class="grigio size">How You Can Make Your Code Well Structured !!
                                 </p>                   
                             </div>
                             <div class="footer-news">
-                                <ul class="lista grigio">
+                                <ul class="lista grigio piccolo">
                                     <li>Jul&nbsp;5</li>
                                     <li>5 min read</li>
                                     <li><button class="grigio">Web Development</button></li>
@@ -186,52 +205,135 @@
                             </div>
                         </div>
                         <div class="img-news">
-                            <img style="height: 50%;" src="./assets/foto6.png" alt="MongoDB">
+                            <img src="./assets/foto6.png" alt="foto6">
                         </div>
                     </div>
-<!-- ---------------------------** FINE ** ----------->
+
+
+                    
             </div>
         </div>
-                    <div class="social"> 
-                        <div class="container2">
-                            <div class="social-sticky">
-                                <div class="social-icons">
-                                    
-                                    <img src="./assets/downloadlogo.png" alt="medium_logo">
-                                    <ion-icon name="add-outline"></ion-icon>
-                                    <ion-icon class="Twitter" name="logo-twitter"></ion-icon>
-                                </div>
-                                    <p style="text-align: center;" class="size">Discover Medium writers you already <br/> follow on Twitter</p>
-                                    <button>
-                                        <div id="bottoneT">
-                                            <ion-icon class="Twitter" name="logo-twitter"></ion-icon>Connect to Twitter
-                                        </div>
-                                    </button>                                                                         
-                                    <p><a class="grigio size" href="">Maybe Later</a></p>                                    
-                            </div>
-                            <h5>Recommended topics</h5>
-                            <div class="bottoni">
-                                <button style="width: 30%;">Technology</button>
-                                <button style="width: 20%;">Money</button>
-                                <button style="width: 30%;">Business</button>
-                                <button style="width: 30%;">Producitivity</button>
-                                <button style="width: 30%;">Psychology</button>
-                                <br/>
-                                <button style="width: 30%;">Mindulness</button>
-                                <button style="width: 30%;">Art</button>
-                            </div>
-                            <h5>Who to follow</h5>
-                            <div class="facebook"> 
-                                immagine
-                                titolo/descri
-                                bottone
-                            </div>
-                            <h5>Recently saved</h5>
-                            <h6>Eva Keiffenheim<span class="grigio"> in </span>Age of Awareness</h6>  
+<!-- ---------------------------** FINE ** ----------->
 
+<!-- ---------------------------** INIZIO SOCIAL ** ----------->
+            
+                <div class="social"> 
+                    <div class="container2">
+                        <div class="social-sticky">
+                            <div class="social-icons">
+                                
+                                <img src="./assets/downloadlogo.png" alt="medium_logo">
+                                <ion-icon name="add-outline"></ion-icon>
+                                <ion-icon class="Twitter" name="logo-twitter"></ion-icon>
+                            </div>
+                                <p style="text-align: center;" class="size">Discover Medium writers you already <br/> follow on Twitter</p>
+                                <button class="bianco pad3">
+                                    <div id="bottoneT">
+                                    <ion-icon class="Twitter" name="logo-twitter"></ion-icon>Connect to Twitter
+                                    </div>
+                                </button>                                                                         
+                                <p><a class="grigio size" href="">Maybe Later</a></p>                                    
                         </div>
-                    </div>
+                        <h5>Recommended topics</h5>
+                        <div class="bottoni">
+                            <button style="width: 30%;">Technology</button>
+                            <button style="width: 20%;">Money</button>
+                            <button style="width: 30%;">Business</button>
+                            <button style="width: 30%;">Producitivity</button>
+                            <button style="width: 30%;">Psychology</button>
+                            <br/>
+                            <button style="width: 30%;">Mindulness</button>
+                            <button style="width: 30%;">Art</button>
+                        </div>
+                        <h5>Who to follow</h5>
 
+                            <div class="facebook"> 
+                                <div class="facebook-img"><img src="./assets/logo6.png" alt="logo6"></div>
+                                   <div class="facebook-child">
+                                    <h5>Lessig</h5>
+                                    <p class="grigio piccolo">law professor, activist</p>
+                                </div>
+                                <div class="facebook-button">
+                                    <button class="bianco">Follow</button>
+                                </div>
+                            </div>
+<!-- ---------------------------------------- FACEBOOK 2 -->
+                            <div class="facebook"> 
+                                <div class="facebook-img"><img src="./assets/logo7.png" alt="logo7"></div>
+                                <div class="facebook-child">
+                                    <h5>David Wineberg</h5>
+                                    <p class="grigio piccolo">Author, The Straight Dope, or What I learned from my first...</p>
+                                </div>
+                                <div class="facebook-button">
+                                    <button class="bianco">Follow</button>
+                                </div>
+                            </div>
+<!-- ---------------------------------------- FACEBOOK 3 -->
+                               <div class="facebook"> 
+                                   <div class="facebook-img"><img src="./assets/logo10.png" alt="logo10"></div>
+                                   <div class="facebook-child">
+                                       <h5>Bonsu Thompson</h5>
+                                       <p class="grigio piccolo">Bonsu Thompson is a writer, producer, Brooklynite and 2019...</p>
+                                   </div>
+                                   <div class="facebook-button">
+                                    <button class="bianco">Follow</button>
+                                </div>
+                            </div>
+                          <h5>Recently saved</h5>
+<!-- --------------------------------------------------------- -->
+
+                        <div class="News-Letter">
+                            <div>   
+                                <div class="Facebook-Titolo"> 
+                                    <div class="Titolo">
+                                        <img src="./assets/logo11.png" alt="logo11">
+                                        <h6>Eva Keiffenheim<span class="grigio"> in </span>Age of Awareness</h6> 
+                                    </div>
+                                    <h5>The Feynman Technique Will Make You Remember What You Read</h5>                 
+                                </div>
+                                <div class="footer-facebook">
+                                    <ul class="lista grigio piccolo">
+                                        <li>Oct&nbsp;2,2020</li>
+                                        <li>6 min read</li>
+                                    </ul>
+                                    <div id="star">
+                                        <ion-icon  name="star"></ion-icon>       
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="News-Letter">
+                            <div>   
+                                <div class="Facebook-Titolo"> 
+                                    <div class="Titolo">
+                                        <img src="./assets/logo12.png" alt="logo12">
+                                        <h6>chrissy teigen</h6> 
+                                    </div>
+                                    <h5>Hi.</h5>                 
+                                </div>
+                                <div class="footer-facebook">
+                                    <ul class="lista grigio piccolo">
+                                        <li>Oct&nbsp;27,2020</li>
+                                        <li>6 min read</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="piccolo See-all" >See all (3)</p>
+                        <p class="grigio piccolo">Help&nbsp;&nbsp;&nbsp;Status
+                                                 Writer&nbsp;&nbsp;&nbsp; 
+                                                 Blog&nbsp;&nbsp;&nbsp; 
+                                                 Careers&nbsp;&nbsp;&nbsp;
+                        </p>
+                        <p class="grigio piccolo">
+                                                 Privacy&nbsp;&nbsp;&nbsp; 
+                                                 Terms&nbsp;&nbsp;&nbsp; 
+                                                 About&nbsp;&nbsp;&nbsp;
+                        </p>
+            </div>
+         </div>
+        
     </main>
 
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
