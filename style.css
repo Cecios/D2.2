@@ -176,7 +176,8 @@ h6{
     width: 85%;
     margin-left: 5%;
     margin-top: 10px;
-    position: sticky;
+    position: sticky; 
+    top: 4%;
 }
 .social-sticky{
     display: flex;
